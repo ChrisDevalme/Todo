@@ -38,4 +38,8 @@ public class Todo {
     public void setTasks(List<Task> tasks) {
         this.tasks = tasks;
     }
+
+    public void addTask(Task task) {
+        tasks.add(task);
+    }
 }
